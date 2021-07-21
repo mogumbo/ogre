@@ -300,7 +300,7 @@ namespace Ogre {
 				if (arbUnits > units)
 					units = arbUnits;
 			}
-			rsc->setNumTextureUnits(std::min<ushort>(16, units));
+			rsc->setNumTextureUnits(std::min<ushort>(OGRE_MAX_TEXTURE_LAYERS, units));
 		}
 		else
 		{
