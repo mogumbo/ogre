@@ -57,7 +57,7 @@ namespace Ogre {
         /** Array of up to 8 lights, indexed as per API
             Note that a null value indicates a free slot
           */ 
-        #define MAX_LIGHTS 8
+        #define MAX_LIGHTS OGRE_MAX_SIMULTANEOUS_LIGHTS
         Light* mLights[MAX_LIGHTS];
 
         /// View matrix to set world against

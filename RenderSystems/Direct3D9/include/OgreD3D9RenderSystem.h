@@ -37,7 +37,7 @@ THE SOFTWARE.
 
 namespace Ogre 
 {
-#define MAX_LIGHTS 8
+#define MAX_LIGHTS OGRE_MAX_SIMULTANEOUS_LIGHTS
 
 	class D3D9DriverList;
 	class D3D9Driver;
